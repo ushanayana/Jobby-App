@@ -1,0 +1,28 @@
+.body-container {
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 80%;
+  width: 80%;
+  background-size: cover;
+
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile-name {
+  font-size: 10px;
+  font-family: 'roboto';
+}
+.side-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.body-container {
+  display: flex;
+
+  flex-direction: row;
+  margin-top: 10px;
+}

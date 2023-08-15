@@ -1,0 +1,43 @@
+.nav-container {
+  background-color: #2c364c;
+  height: 20vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 10px;
+  padding: 10px;
+}
+.jobby-logo {
+  height: 50px;
+  width: 50px;
+}
+.logout-button {
+  height: 30px;
+  width: 60px;
+  background-color: blue;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  color: #ffffff;
+  font-family: 'roboto';
+  margin-right: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
